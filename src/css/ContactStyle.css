@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: "Inter";
+  background-color: rgb(236, 236, 236);
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+.contact__form h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  letter-spacing: -1px;
+}
+.contact__form input {
+  min-width: 380px;
+  padding: 20px 0;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0, 0.24);
+  font-family: "Inter";
+  border-radius: 2px;
+  font-size: 15px;
+}
